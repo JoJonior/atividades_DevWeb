@@ -1,0 +1,96 @@
+
+.img_backgorund {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #573824; /* A cor de fundo "atrás" de tudo */
+    position: relative;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img_backgorund::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+
+    background-image: url('imgs/cupcake.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+   
+    opacity: 0.3;              
+    filter: blur(24px);        
+    
+    z-index: -1;               
+    pointer-events: none;      
+}
+.panfleto {
+    background-color: #F0E8C2;
+    border-radius: 24px;
+    width: 800px;
+    height: 1440px;
+    padding: 24px;
+    gap: 24px;
+    
+    margin: auto;
+    margin-top: 48px;  
+    
+
+}
+
+.creditos {
+    font-family: Alice;
+    font-weight: 400;
+    font-size: 16px;
+    
+
+    margin: auto;
+    padding: 24px;
+    color: #F0E8C2;
+    text-align: center;
+    
+}
+
+.img_panfleto{
+    border-radius: 24px;
+    width: 800px;
+}
+
+.title {
+    font-family: Alice;
+    font-size: 40px;
+    color: #291B1A;
+}
+
+.subtitle {
+    font-family: Alice;
+    font-size: 24px;
+    color: #291B1A;
+
+}
+
+.textos{
+    font-family: Alice;
+    font-size: 16px;
+    color: #573A37;
+    font-weight: 400;
+
+}
+
+.container_textos{
+    margin: 24px;
+}
+
+
+
+
+
