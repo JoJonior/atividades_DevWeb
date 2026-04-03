@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="stylesheet" href="Assets/css/stilo.css">
+    
+    <link rel="stylesheet" href="https://cdn.hugeicons.com/font/free/hugeicons.css">
+  
+</head>
+<body>
+    <main class="container">
+        <header class="div_logo">
+            <img src="Assets/img/logo.png" alt="Logo Lista de Compras">
+            <h1 class="title_logo">quicklist</h1>
+        </header>
+
+
+        <p class="link_vermelho"><- Voltar</p>
+        <h1>Compras da semana</h1>
+        <form id="item-form">
+            <div class="input-group">
+                <input type="text" id="item-input" placeholder="Adicionar novo item" required>
+                <button type="submit" id="add-button">
+                    <i class="hugeicons-plus-sign-circle"></i>
+                    Adicionar item
+                </button>
+            </div>
+        </form>
+
+        <section class="list-container">
+            <ul id="shopping-list">
+                </ul>
+
+
+        </section>
+        <div id="alert" class="alert hidden">
+            <img src="Assets/img/Alert.png"> <p>O item foi removido da lista</p>
+            
+            <img src="Assets/img/X.png" id="close-alert">
+        </div>
+
+
+    </main>
+    <script src="Assets/js/script.js"></script>
+</body>
+</html>
