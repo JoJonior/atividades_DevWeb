@@ -4,3 +4,5 @@ Repositórios de atividades na matéria de desenvolvimento Web I.
 [Link](https://jojonior.github.io/atividades_DevWeb/ATV_01/atv)
 # Atividade 2
 [Link](https://jojonior.github.io/atividades_DevWeb/ATV_02/portfolio.html)
+# Atividade 3 
+[Link](https://jojonior.github.io/atividades_DevWeb/ATV_03/ATV_03.html)
